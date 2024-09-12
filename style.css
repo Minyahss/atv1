@@ -2,9 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 h1, h2, h3 {
     font-family: 'Ruda';
+    font-weight: 300;
 }
+h1{
+    font-weight: 700;
+}
+
 p{
 font-family: 'Nunito';
+font-size: large;
 }
 #nome{
     font-size: 100px;
@@ -25,4 +31,15 @@ font-family: 'Nunito';
     padding: 48px;
     width: 500px;
 }
-
+.formacao, .experiencia{
+    line-height: 8px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.experiencia{
+    line-height: 24px;
+}
+li{
+    list-style-type: none;
+    line-height: 16px;
+}
